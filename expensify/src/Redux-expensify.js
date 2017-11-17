@@ -16,7 +16,7 @@ const addExpense = ({ description = '', note = '', amount = 0, createdAt = 0 } =
 
 const removeExpense = ( {id} = {} ) => ({
   type: 'REMOVE_EXPENSE',
-    id
+  id
 });
 
 const editExpense = (id, updates) => ({
