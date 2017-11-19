@@ -4,3 +4,4 @@ normalize.css
 Moment.js
 airbnb react-dates
 uuid.js
+Testing with Jest
