@@ -4,4 +4,6 @@ normalize.css
 Moment.js
 airbnb react-dates
 uuid.js
-Testing with Jest
+Testing functions with Jest
+Testing components with react-test-renderer
+Testing components with Enzyme.js, enzyme-adapter-react-16 and enzyme-to-json
