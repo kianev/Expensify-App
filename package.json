@@ -1,4 +1,5 @@
 {
+  "private": true,
   "dependencies": {
     "heroku-cli": "^6.14.38"
   }
