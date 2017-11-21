@@ -25,11 +25,11 @@
     "uuid": "^3.1.0"
   },
   "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run build:prod",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
-    "start": "node server/server.js",
-    "heroku-postbuild": "yarn build",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
