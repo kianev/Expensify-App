@@ -6,8 +6,10 @@
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
     "enzyme-to-json": "^3.2.2",
+    "express": "^4.16.2",
     "moment": "^2.19.2",
     "node-sass-chokidar": "^0.0.3",
+    "normalize.css": "^7.0.0",
     "npm-run-all": "^4.1.2",
     "raf": "^3.4.0",
     "react": "^16.1.1",
@@ -26,13 +28,16 @@
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
-    "start": "npm-run-all -p watch-css start-js",
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn build",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }
