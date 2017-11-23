@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="073f3946-af98-447e-9370-aedecfc74230" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/actions/auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/components/LoginPage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/reducers/auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/routers/PrivateRoute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/routers/PublicRoute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/tests/actions/auth.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/tests/reducers/auth.test.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/expensify/src/components/HelpPage.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/public/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/images/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/expensify/src/components/LoadingPage.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/expensify/public/favicon.ico" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/package.json" afterPath="$PROJECT_DIR$/expensify/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/actions/expenses.js" afterPath="$PROJECT_DIR$/expensify/src/actions/expenses.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/components/Header.js" afterPath="$PROJECT_DIR$/expensify/src/components/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/firebase/firebase.js" afterPath="$PROJECT_DIR$/expensify/src/firebase/firebase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/public/index.html" afterPath="$PROJECT_DIR$/expensify/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/components/LoginPage.js" afterPath="$PROJECT_DIR$/expensify/src/components/LoginPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/index.css" afterPath="$PROJECT_DIR$/expensify/src/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/index.js" afterPath="$PROJECT_DIR$/expensify/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/routers/AppRouter.js" afterPath="$PROJECT_DIR$/expensify/src/routers/AppRouter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/store/configureStore.js" afterPath="$PROJECT_DIR$/expensify/src/store/configureStore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/tests/actions/expenses.test.js" afterPath="$PROJECT_DIR$/expensify/src/tests/actions/expenses.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/tests/components/EditExpensePage.test.js" afterPath="$PROJECT_DIR$/expensify/src/tests/components/EditExpensePage.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/tests/components/Header.test.js" afterPath="$PROJECT_DIR$/expensify/src/tests/components/Header.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expensify/src/index.scss" afterPath="$PROJECT_DIR$/expensify/src/index.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,22 +28,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/expensify/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="281">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify/src/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expenses.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/expensify/src/actions/expenses.js">
+      <file leaf-file-name="LoadingPage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expensify/src/components/LoadingPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="120">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/expensify/playground/form.js" />
-        <option value="$PROJECT_DIR$/expensify/src/tests/components/ExpenseForm.test.js" />
         <option value="$PROJECT_DIR$/expensify/playground/edit.js" />
         <option value="$PROJECT_DIR$/expensify/src/tests/fixtures/filters.js" />
         <option value="$PROJECT_DIR$/expensify/src/tests/components/ExpenseListFilters.test.js" />
@@ -88,7 +93,6 @@
         <option value="$PROJECT_DIR$/expensify/src/components/ExpenseListFilters.js" />
         <option value="$PROJECT_DIR$/expensify/node_modules/react-dates/lib/css/_datepicker.css" />
         <option value="$PROJECT_DIR$/expensify/src/components/ExpenseForm.js" />
-        <option value="$PROJECT_DIR$/expensify/src/index.scss" />
         <option value="$PROJECT_DIR$/expensify/src/components/ExpenseListItem.js" />
         <option value="$PROJECT_DIR$/expensify/src/components/ExpenseList.js" />
         <option value="$PROJECT_DIR$/expensify/src/promises.js" />
@@ -102,7 +106,6 @@
         <option value="$PROJECT_DIR$/expensify/playground/file.js" />
         <option value="$PROJECT_DIR$/expensify/src/components/EditExpensePage.js" />
         <option value="$PROJECT_DIR$/expensify/src/firebase/firebase.js" />
-        <option value="$PROJECT_DIR$/expensify/src/components/LoginPage.js" />
         <option value="$PROJECT_DIR$/expensify/src/components/Header.js" />
         <option value="$PROJECT_DIR$/expensify/src/store/configureStore.js" />
         <option value="$PROJECT_DIR$/expensify/playground/aaa.js" />
@@ -114,13 +117,17 @@
         <option value="$PROJECT_DIR$/expensify/src/tests/components/EditExpensePage.test.js" />
         <option value="$PROJECT_DIR$/expensify/playground/vvv.js" />
         <option value="$PROJECT_DIR$/expensify/src/tests/actions/auth.test.js" />
-        <option value="$PROJECT_DIR$/expensify/src/index.js" />
         <option value="$PROJECT_DIR$/expensify/src/tests/components/Header.test.js" />
         <option value="$PROJECT_DIR$/expensify/src/routers/PrivateRoute.js" />
         <option value="$PROJECT_DIR$/expensify/src/routers/PublicRoute.js" />
         <option value="$PROJECT_DIR$/expensify/src/routers/AppRouter.js" />
         <option value="$PROJECT_DIR$/expensify/src/actions/expenses.js" />
         <option value="$PROJECT_DIR$/expensify/src/tests/actions/expenses.test.js" />
+        <option value="$PROJECT_DIR$/expensify/src/components/LoginPage.js" />
+        <option value="$PROJECT_DIR$/expensify/public/index.html" />
+        <option value="$PROJECT_DIR$/expensify/src/components/LoadingPage.js" />
+        <option value="$PROJECT_DIR$/expensify/src/index.scss" />
+        <option value="$PROJECT_DIR$/expensify/src/index.js" />
       </list>
     </option>
   </component>
@@ -231,7 +238,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="actions" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,11 +261,15 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/expensify/node_modules/react-dates/lib/css/_datepicker.css&#10;true&#10;C:/Users/Kaloian/Desktop/Programm/Projects/Expensify-App/expensify/build/static/js/main.ef87384c.js" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaloian\Desktop\Programm\Projects\Expensify-App\expensify\public" />
+      <recent name="C:\Users\Kaloian\Desktop\Programm\Projects\Expensify-App\expensify\public\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaloian\Desktop\Programm\Projects\Expensify-App\expensify\src" />
       <recent name="C:\Users\Kaloian\Desktop\Programm\Projects\Expensify-App\expensify" />
       <recent name="C:\Users\Kaloian\Desktop\Programm\Projects\Expensify-App\expensify\src\firebase" />
       <recent name="C:\Users\Kaloian\Desktop\Programm\Projects\Expensify-App\expensify\playground" />
-      <recent name="C:\Users\Kaloian\Desktop\Programm\Projects\Expensify-App\expensify\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,7 +401,7 @@
       <workItem from="1511097120954" duration="33786000" />
       <workItem from="1511251067849" duration="16552000" />
       <workItem from="1511273398555" duration="18123000" />
-      <workItem from="1511412428238" duration="33293000" />
+      <workItem from="1511412428238" duration="36396000" />
     </task>
     <task id="LOCAL-00001" summary="Expensify App setup done, React Router v4.0 set up.">
       <created>1510764708690</created>
@@ -462,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511438775190</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Private and Public routes set, authentication added, client and server side data validation set.">
+      <created>1511462589477</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1511462589478</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -471,20 +489,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176896000" />
+    <option name="totallyTimeSpent" value="179999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16071428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58132046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5442834" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2431562" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -533,7 +551,8 @@
     <MESSAGE value="total expenses summary component added" />
     <MESSAGE value="Expensify app styled using SCSS, firebase for database added and connected successfully" />
     <MESSAGE value="Firebase connected with full CRUD operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firebase connected with full CRUD operations" />
+    <MESSAGE value="Private and Public routes set, authentication added, client and server side data validation set." />
+    <option name="LAST_COMMIT_MESSAGE" value="Private and Public routes set, authentication added, client and server side data validation set." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -542,15 +561,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/expensify/src/tests/selectors/expenses-total.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expensify/src/tests/components/__snapshots__/ExpensesSummary.test.js.snap" />
-    <entry file="file://$PROJECT_DIR$/expensify/src/tests/components/ExpensesSummary.test.js" />
     <entry file="file://$PROJECT_DIR$/expensify/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -587,6 +597,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="707" column="11" lean-forward="false" selection-start-line="707" selection-start-column="11" selection-end-line="707" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -721,14 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/expensify/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4440">
-          <caret line="194" column="21" lean-forward="false" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/expensify/src/reducers/expenses.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -776,16 +779,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expensify/src/components/LoginPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +805,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
           <folding>
-            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#0#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -836,7 +831,7 @@
         <state relative-caret-position="360">
           <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -878,7 +873,7 @@
         <state relative-caret-position="432">
           <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
-            <element signature="e#93#138#0" expanded="true" />
+            <element signature="e#93#138#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -888,7 +883,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="53" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,7 +893,7 @@
         <state relative-caret-position="552">
           <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -908,7 +903,7 @@
         <state relative-caret-position="216">
           <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -918,16 +913,8 @@
         <state relative-caret-position="264">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/expensify/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -941,9 +928,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/expensify/src/actions/expenses.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="689">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify/src/components/LoginPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify/src/images/loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify/src/components/LoadingPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify/src/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expensify/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
