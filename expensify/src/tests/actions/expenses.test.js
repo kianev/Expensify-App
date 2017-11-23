@@ -4,6 +4,7 @@ import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 import database from '../../firebase/firebase';
 
+const uid = 'testuid';
 const createMockStore = configureMockStore([thunk]);
 
 test('Should setup remove action object', () => {
