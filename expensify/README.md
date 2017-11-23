@@ -7,3 +7,5 @@ uuid.js
 Testing functions with Jest
 Testing components with react-test-renderer
 Testing components with Enzyme.js, enzyme-adapter-react-16 and enzyme-to-json
+Redux-thunk for dispatching functions
+Redux-mock-store
